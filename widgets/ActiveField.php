@@ -4,8 +4,9 @@ namespace wfcreations\metronic\widgets;
 
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
+use yii\widgets\ActiveField as BaseActiveField;
 
-class ActiveField extends \yii\widgets\ActiveField {
+class ActiveField extends BaseActiveField {
 
     public $form;
     public $tagOptions = ['class' => 'col-md-9'];
